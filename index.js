@@ -1,79 +1,83 @@
 const inquirer = require("inquirer");
-const fs = require('fs');
+const path = require("path");
+const fs = require("fs")
 const util = require("util")
 
-const generatorMarkdown = require('./util/generateMarkdown');
+const generatorMarkdown = require("./util/generateMarkdown");
+const { stringify } = require("querystring");
 
-//array of question for user
+//array of question for user input
 const questions = [{
     type: "input",
-    message: "What is the title of the project?"
-    name: "Title"
+    name: "Title",
+    message: "What is the title of the project?",
 }, {
     type: "input",
-    message: "What is the project about?"
-    name: "Description"
+    name: "Description",
+    message: "What is the project about?",
+
 }, {
     type: "input",
-    message: "Table of Contents"
-    name: "Table of Contents"
+    name: "Table of Contents",
+    message: "Table of Contents",
+
 }, {
     type: "input",
-    message: "Do any installations need to be made to run the app?"
-    name: "Title"
+    name: "Title",
+    message: "Do any installations need to be made to run the app?",
+
 }, {
     type: "input",
-    message: "How is the app used? Give instructions"
-    name: "Usage"
+    name: "Usage",
+    message: "How is the app used? Give instructions",
+
 }, {
     type: "input",
-    message: "What liscence is being used?"
-    name: "License"
+    name: "License",
+    message: "What liscence is being used?",
+
 }, {
     type: "input",
-    message: "Who contributed to this project?"
-    name: "Contributing"
+    name: "Contributing",
+    message: "Who contributed to this project?",
+
 }, {
     type: "input",
-    message: "What commands are needed to test this app??"
-    name: "Tests"
+    name: "Tests",
+    message: "What commands are needed to test this app??",
+
 }, {
     type: "input",
+    name: "Questions",
     message: "Contact info for inquiries",
-    name: "Questions"
+
 }, {
     type: "input",
+    name: "Username",
     message: "What is your Github username?",
-    name: "Username"
+
 }, {
     type: "input",
-    message: "What is your email address?"
-    name: "Title"
+    name: "Email",
+    message: "What is your email address?",
+
 },
 
-]
+];
+
+//function to initialize app
+function init() {
+    inquirer.createPromptModule(questions).then((responses) => {
+        console.log("creating Profeesional README.md File...");
+        writeToFile("./dist/README.md", generateMarkdown({...responses}));
+    });
+}
 
 //function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err){
-        console.log(fileName)
-        console.log(data)
-        if (err) {
-            return console.log(err)
-        } else {
-            console.log("success")
-        }
-    })
-
-}
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data); 
+ }
 
 //function to initialize program
-function init() {
-    inquirer.createPromptModule(questions)
-    .then(function(data)) {
-        writeToFile("README.md", generatorMarkdown(data));
-        console.log(data)
-    })
-}
-
+init();
 
