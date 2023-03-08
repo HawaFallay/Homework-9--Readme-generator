@@ -17,7 +17,7 @@ ${data.Description}
 ${data.Require}
 # Usage
 ${data.Usage}
-# Contact
+# Contact-
 ${data.contact}
 * Name - ${data.Username}
 * email - ${data.Email}
