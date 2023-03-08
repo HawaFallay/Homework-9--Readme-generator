@@ -1,6 +1,6 @@
-hello
- by n
- mit
+Readme.md Generator
+ by HawaFallay
+ MIT License
 # TableOfContents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -8,19 +8,19 @@ hello
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-mit
+MIT License
 # Description
-life
+Generates a 'Readme.md" file for developers.
 # Requirements
-m
+npm inquirer@8.1.4
 # Usage
-ok
+clone repo, npm install inquirer@8.1.4,from the itegrated terminal run  "node index.js", Readme Generator prompt will appear
 # Contact
-* Name - n
-* email - m
-* GitHub - [n/of course](https://github.com/n/of course)
+* Name - HawaFallay
+* email - HawaFallay@gmail.com
+* GitHub - [HawaFallay/https://github.com/HawaFallay/Homework-9--Readme-generator](https://github.com/HawaFallay/https://github.com/HawaFallay/Homework-9--Readme-generator)
 ## Contributors
-lol
+Me, Myself, and I
 ## Testing
-lol
-mit
+node index.js
+MIT License
