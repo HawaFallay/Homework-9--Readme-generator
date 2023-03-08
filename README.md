@@ -4,16 +4,13 @@
 
 Professional README.md Generator
 
-## DESCRIPTION
-
-This assignment was to learn how to create a README.md file from the command line.
-
 ## TABLE OF CONTENTS
 
 - **[DESCRIPTION](#description)**
 - **[LINK](#link)**
 - **[SCREENSHOTS](#screenshots)**
 - **[QUESTIONS](#questions)**
+
 ## DESCRIPTION
 
 This assignment was to learn how to create a README.md file from the command line.
