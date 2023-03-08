@@ -1,26 +1,25 @@
-Readme Generator
- by HawaFallay
- MIT License
+a
+ by j
 # TableOfContents
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
-MIT License
 # Description
-Generates Readme.md file from a template for developers
+b
 # Requirements
-npm i inquirer@8.1.4
+l
 # Usage
-Follow video link
+e
 # Contact
-* Name - HawaFallay
-* email - HawaFallay@gmail.com
-* GitHub - [HawaFallay/github.com/HawaFallay](https://github.com/HawaFallay/github.com/HawaFallay)
+undefined
+* Name - j
+* email - k
+* GitHub - [j/d](https://github.com/j/d)
 ## Contributors
-Mickey and Minnie
+g
 ## Testing
-node index.js
-MIT License
+h
+## Liscence
+f
