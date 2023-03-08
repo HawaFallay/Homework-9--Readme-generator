@@ -2,7 +2,11 @@
 
 ## TITLE
 
-Readme.md Generator
+Professional README.md Generator
+
+## DESCRIPTION
+
+This assignment was to learn how to create a README.md file from the command line.
 
 ## TABLE OF CONTENTS
 
