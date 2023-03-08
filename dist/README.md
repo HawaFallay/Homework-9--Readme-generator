@@ -1,4 +1,4 @@
-Readme.md Generator
+Readme Generator
  by HawaFallay
  MIT License
 # TableOfContents
@@ -10,17 +10,17 @@ Readme.md Generator
 * [Questions](#questions)
 MIT License
 # Description
-Generates a 'Readme.md" file for developers.
+Generates Readme.md file from a template for developers
 # Requirements
-npm inquirer@8.1.4
+npm i inquirer@8.1.4
 # Usage
-clone repo, npm install inquirer@8.1.4,from the itegrated terminal run  "node index.js", Readme Generator prompt will appear
+Follow video link
 # Contact
 * Name - HawaFallay
 * email - HawaFallay@gmail.com
-* GitHub - [HawaFallay/https://github.com/HawaFallay/Homework-9--Readme-generator](https://github.com/HawaFallay/https://github.com/HawaFallay/Homework-9--Readme-generator)
+* GitHub - [HawaFallay/github.com/HawaFallay](https://github.com/HawaFallay/github.com/HawaFallay)
 ## Contributors
-Me, Myself, and I
+Mickey and Minnie
 ## Testing
 node index.js
 MIT License

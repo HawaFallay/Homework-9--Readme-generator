@@ -33,7 +33,7 @@ Live Link:
 
 ## SCREENSHOTS
 
-![Image of homescreen](./assets/images/Screen%20Shot%202023-03-01%20at%205.40.28%20AM.png)
+![Image of homescreen](./assets/Screen%20Shot%202023-03-07%20at%2010.09.53%20PM.png)
 ![Image of homescreen2](./assets/images/Screen%20Shot%202023-03-01%20at%206.16.39%20AM.png)
 
 ## QUESTIONS
