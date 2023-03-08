@@ -2,13 +2,11 @@
 
 ## TITLE
 
-Readz
+Professional README.md Generator
 
 ## DESCRIPTION
 
-This assignment was to learn about accesibility and leaving code
-cleaner than we found it. Adjustments and edits were made while maintaing the integrity
-of the code. Website for Digital Marketing company Horiseon.
+This assignment was to learn how to create a README.md file from the command line.
 
 ## TABLE OF CONTENTS
 
