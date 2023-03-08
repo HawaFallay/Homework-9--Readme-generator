@@ -1,13 +1,13 @@
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs")
-const util = require("util")
+const generateMarkdown = require("./generateMarkdown");
 
-const generatorMarkdown = require("./util/generateMarkdown");
 const { stringify } = require("querystring");
 
 //array of question for user input
-const questions = [{
+const questions = [
+    {
     type: "input",
     name: "Title",
     message: "What is the title of the project?",
@@ -18,13 +18,13 @@ const questions = [{
 
 }, {
     type: "input",
-    name: "Table of Contents",
-    message: "Table of Contents",
+    name: "screenshot",
+    message: "Provide a relative path to the image",
 
 }, {
     type: "input",
-    name: "Title",
-    message: "Do any installations need to be made to run the app?",
+    name: "Link",
+    message: "URL?",
 
 }, {
     type: "input",
@@ -62,12 +62,18 @@ const questions = [{
     message: "What is your email address?",
 
 },
+ {
+    type: "input",
+    name: "Require",
+    message: "What are the requirements to run the app?",
+
+},
 
 ];
 
 //function to initialize app
 function init() {
-    inquirer.createPromptModule(questions).then((responses) => {
+    inquirer.prompt(questions).then((responses) => {
         console.log("creating Profeesional README.md File...");
         writeToFile("./dist/README.md", generateMarkdown({...responses}));
     });
