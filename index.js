@@ -75,7 +75,7 @@ const questions = [
 function init() {
     inquirer.prompt(questions).then((responses) => {
         console.log("creating Profeesional README.md File...");
-        writeToFile("./dist/README.md", generateMarkdown({...responses}));
+        writeToFile("./dist/README-mock.md", generateMarkdown({...responses}));
     });
 }
 
