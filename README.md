@@ -2,39 +2,28 @@
 
 ## TITLE
 
-Readz
-
-## DESCRIPTION
-
-This assignment was to learn about accesibility and leaving code
-cleaner than we found it. Adjustments and edits were made while maintaing the integrity
-of the code. Website for Digital Marketing company Horiseon.
+Readme.md Generator
 
 ## TABLE OF CONTENTS
 
-- **[FRONT END TECHNOLOGIES USED](#frontEndTechnologiesUsed)**
+- **[DESCRIPTION](#description)**
 - **[LINK](#link)**
 - **[SCREENSHOTS](#screenshots)**
 - **[QUESTIONS](#questions)**
+## DESCRIPTION
 
-## FRONT END TECHNOLOGIES USED
-
-HTML
-CSS
-JAVA
+This assignment was to learn how to create a README.md file from the command line.
 
 ## LINK
 
 GitHub Repository:
-<https://github.com/HawaFallay/Homework_1>
+<https://github.com/HawaFallay/Homework-9--Readme-generator>
 
-Live Link:
-<https://hawafallay.github.io/Homework_1/>
+Video Link:
 
 ## SCREENSHOTS
 
-![Image of homescreen](./assets/Screen%20Shot%202023-03-07%20at%2010.09.53%20PM.png)
-![Image of homescreen2](./assets/images/Screen%20Shot%202023-03-01%20at%206.16.39%20AM.png)
+![Image of homescreen](./images/Screen%20Shot%202023-03-07%20at%2011.01.28%20PM.png)
 
 ## QUESTIONS
 
