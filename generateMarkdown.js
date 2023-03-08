@@ -11,10 +11,13 @@ function generateMarkdown(data){
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Contact](#contact)
 # Description
 ${data.Description}
 # Requirements
 ${data.Require}
+# Testing
+${data.Tests}
 # Usage
 ${data.Usage}
 # Contact-
@@ -22,11 +25,9 @@ ${data.contact}
 * Name - ${data.Username}
 * email - ${data.Email}
 * GitHub - [${data.Username}/${data.Link}](https://github.com/${data.Username}/${data.Link})
-## Contributors
+# Contributing
 ${data.Contributing}
-## Testing
-${data.Tests}
-## Liscence
+# Liscence
 ${data.License}`
 }
 

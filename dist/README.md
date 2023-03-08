@@ -1,25 +1,26 @@
-Readme.md Generator
- by HawaFallay
+p
+ by f
 # TableOfContents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+* [Contact](#contact)
 # Description
-Generates Readme.md file template for developers
+o
 # Requirements
-npm i inquirer@8.2.4
+h
+# Testing
+e
 # Usage
-Follow video link in Readme
+y
 # Contact-
 undefined
-* Name - HawaFallay
-* email - HawaFallay@gmail.com
-* GitHub - [HawaFallay/github.com/HawaFallay](https://github.com/HawaFallay/github.com/HawaFallay)
-## Contributors
-Me, Myself, and I
-## Testing
-node index.js
-## Liscence
-MIT License
+* Name - f
+* email - g
+* GitHub - [f/u](https://github.com/f/u)
+# Contributing
+r
+# Liscence
+t
