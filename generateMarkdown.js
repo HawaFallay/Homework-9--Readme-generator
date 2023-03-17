@@ -12,7 +12,7 @@ function generateMarkdown(data){
 * [Usage](#usage)
 * [Contact](#contact)
 * [Contributing](#contributing)
-* [Licence](#License)
+* [License](#License)
 # Description
 ${data.Description}
 # Requirements
@@ -28,7 +28,7 @@ ${data.contact}
 * GitHub - [${data.Username}](https://github.com/${data.Username})
 # Contributing
 ${data.Contributing}
-# Licence
+# License
 ${data.License}`
 }
 

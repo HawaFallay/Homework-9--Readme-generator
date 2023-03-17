@@ -9,18 +9,18 @@ Generator
 * [Contributing](#contributing)
 * [Licence](#License)
 # Description
-Generationg a page using a template
+Helps the User generate README.md files using a template
 # Requirements
-null
+none
 # Testing
-null
+
 # Usage
-from the index.js, open integrated terminal, run node index.js
+From the index.js integrated server, run "node index.js"
 # Contact
 undefined
 * Name - HawaFallay
 * email - HawaFallay@gmail.com
-* GitHub - [HawaFallay](https://github.com/HawaFallay/google.com)
+* GitHub - [HawaFallay](https://github.com/HawaFallay)
 # Contributing
 Hawa Fallay
 # Licence
