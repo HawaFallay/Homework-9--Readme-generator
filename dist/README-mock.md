@@ -1,5 +1,5 @@
-love
- by huppy
+Generator
+ by HawaFallay
 # TableOfContents
 * [Description](#description)
 * [Requirements](#requirements)
@@ -9,19 +9,19 @@ love
 * [Contributing](#contributing)
 * [Licence](#License)
 # Description
-loving
+Generationg a page using a template
 # Requirements
-dfdg
-# Testing
-npm install
-# Usage
 null
-# Contact-
+# Testing
+null
+# Usage
+from the index.js, open integrated terminal, run node index.js
+# Contact
 undefined
-* Name - huppy
-* email - ggh@emil.vom
-* GitHub - [huppy/git](https://github.com/huppy/git)
+* Name - HawaFallay
+* email - HawaFallay@gmail.com
+* GitHub - [HawaFallay](https://github.com/HawaFallay/google.com)
 # Contributing
-me
-# Liscence
-mit
+Hawa Fallay
+# Licence
+MIT
