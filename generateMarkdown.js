@@ -6,12 +6,13 @@ function generateMarkdown(data){
   return `${data.Title}
  by ${data.Username}
 # TableOfContents
-- ** [Installation](#installation)**
+* [Description](#description)
+* [Requirements](#requirements)
+* [Testing](#testing)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 * [Contact](#contact)
+* [Contributing](#contributing)
+* [Licence](#License)
 # Description
 ${data.Description}
 # Requirements
@@ -24,10 +25,10 @@ ${data.Usage}
 ${data.contact}
 * Name - ${data.Username}
 * email - ${data.Email}
-* GitHub - [${data.Username}/${data.Link}](https://github.com/${data.Username}/${data.Link})
+* GitHub - [${data.Username}](https://github.com/${data.Username}/${data.Link})
 # Contributing
 ${data.Contributing}
-# Liscence
+# Licence
 ${data.License}`
 }
 

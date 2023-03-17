@@ -1,5 +1,5 @@
-JavaScript Tutorial
- by LoriLaw
+love
+ by huppy
 # TableOfContents
 * [Description](#description)
 * [Requirements](#requirements)
@@ -7,21 +7,21 @@ JavaScript Tutorial
 * [Usage](#usage)
 * [Contact](#contact)
 * [Contributing](#contributing)
-* [License](#Liscence)
+* [Licence](#License)
 # Description
-This project will help you learn the basics of Javascript
+loving
 # Requirements
-npm i inquirer
+dfdg
 # Testing
-node index.js
+npm install
 # Usage
-After Typing node index.js into an intergrated Terminal
+null
 # Contact-
 undefined
-* Name - LoriLaw
-* email - LoriLaw@email.com
-* GitHub - [LoriLaw/github.com/LoriLaw/Javascript](https://github.com/LoriLaw/github.com/LoriLaw/Javascript)
+* Name - huppy
+* email - ggh@emil.vom
+* GitHub - [huppy/git](https://github.com/huppy/git)
 # Contributing
-ROnnie, Bobby, Ricky, and Mike
+me
 # Liscence
-MIT License
+mit
