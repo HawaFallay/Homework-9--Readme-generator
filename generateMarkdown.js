@@ -21,7 +21,7 @@ ${data.Require}
 ${data.Tests}
 # Usage
 ${data.Usage}
-# Contact-
+# Contact
 ${data.contact}
 * Name - ${data.Username}
 * email - ${data.Email}
