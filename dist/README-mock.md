@@ -1,12 +1,13 @@
 JavaScript Tutorial
  by LoriLaw
 # TableOfContents
-* [Installation](#installation)
+* [Description](#description)
+* [Requirements](#requirements)
+* [Testing](#testing)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
 * [Contact](#contact)
+* [Contributing](#contributing)
+* [License](#Liscence)
 # Description
 This project will help you learn the basics of Javascript
 # Requirements

@@ -6,7 +6,7 @@ function generateMarkdown(data){
   return `${data.Title}
  by ${data.Username}
 # TableOfContents
-* [Installation](#installation)
+- ** [Installation](#installation)**
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
