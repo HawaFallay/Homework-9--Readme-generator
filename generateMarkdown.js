@@ -25,7 +25,7 @@ ${data.Usage}
 ${data.contact}
 * Name - ${data.Username}
 * email - ${data.Email}
-* GitHub - [${data.Username}](https://github.com/${data.Username}/${data.Link})
+* GitHub - [${data.Username}](https://github.com/${data.Username})
 # Contributing
 ${data.Contributing}
 # Licence
